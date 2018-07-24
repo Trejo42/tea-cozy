@@ -106,12 +106,24 @@ header {
 
 .locations {
   height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url("../images/img-locations-background.jpg")
 }
 
 .location-boxes {
-
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  opacity: 1;
 }
 
 .store {
-
+  display: inline-flex;
+  flex-direction: column;
+  width: 300px;
+  height: 300px;
+  margin: 15px;
+  background-color: black;
 }
