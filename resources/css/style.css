@@ -55,16 +55,18 @@ header {
     /*Our Mission*/
 
 .mission {
-  display: flex;
   height: 700px;
-  margin: 0 auto;
+  padding-top: 70px;
   background-image: url("../images/img-mission-background.jpg");
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .mission-container {
-  display: flex;
-  margin: 0 auto;
-  align-items: center;
+  margin: auto;
+  width: 100%;
+  background-color: black;
 }
 
 
@@ -104,4 +106,12 @@ header {
 
 .locations {
   height: 500px;
+}
+
+.location-boxes {
+
+}
+
+.store {
+
 }
