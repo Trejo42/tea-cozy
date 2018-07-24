@@ -52,7 +52,7 @@ header {
   text-align: center;
 }
 
-    /*Our Mission*/
+/*Our Mission*/
 
 .mission {
   height: 700px;
@@ -69,8 +69,7 @@ header {
   background-color: black;
 }
 
-
-    /*Tea of the Month*/
+/*Tea of the Month*/
 
 .month {
   display: block;
@@ -101,29 +100,53 @@ header {
   padding: 5px;
 }
 
-
-    /*Locations*/
+/*Locations*/
 
 .locations {
   height: 500px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  padding-top: 70px;
   background-image: url("../images/img-locations-background.jpg")
 }
 
+.locations h2 {
+  display: block;
+  margin: 0;
+  padding: 10px;
+}
+
 .location-boxes {
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-  opacity: 1;
+  display: inline-flex;
+  align-items: center;
 }
 
 .store {
   display: inline-flex;
   flex-direction: column;
+  margin: 15px 20px;
+  padding: 10px 0;
   width: 300px;
-  height: 300px;
-  margin: 15px;
   background-color: black;
+}
+
+.store h3 {
+  margin: 0;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.store span {
+  margin: 20px 0;
+}
+
+/*contact*/
+
+.contact {
+
+}
+
+/*copyright*/
+
+.copyright h5 {
+  text-align: left;
+  margin-left: 20px;
 }
